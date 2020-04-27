@@ -1,7 +1,7 @@
 # pip install txpy-azureutils
 import uuid
 
-from txpy.azureutils.storage import AzBlobManagerSync
+from txpy.azurehelper.storage import AzBlobManagerSync
 
 AZ_STORAGE_BLOB_CONN_STR = "your_storage_connection_string"
 

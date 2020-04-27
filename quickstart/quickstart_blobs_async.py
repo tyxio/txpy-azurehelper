@@ -2,7 +2,7 @@
 import uuid
 import asyncio
 
-from txpy.azureutils.storage import AzBlobManagerAsync
+from txpy.azurehelper.storage import AzBlobManagerAsync
 
 AZ_STORAGE_BLOB_CONN_STR = "your_storage_connection_string"
 

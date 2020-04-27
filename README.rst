@@ -20,7 +20,7 @@ More functions will come in future releases.
 Installing
 ----------
 
-You can install the txpy-azurehelper package using:
+You can install the txpy-azurehelper package using::
 
 $ pip install txpy-azurehelper
  
@@ -45,11 +45,22 @@ with ``pip install txpy-azurehelper``) run::
 
     $ pip install -Ur requirements.txt
 
+Quick Start
+-----------
+The folder **quickstart** contains examples of using the helper functions:
+
+* *quickstart_blobs_sync.py* : use synchronous helper functions to work with containers and blobs.
+* *quickstart_blobs_async.py* : use asynchronous helper functions to work with containers and blobs.
+
+Note that you must have a valid Azure Storage connection string or SAS key.
+
 Running Tests
 -------------
 
-Note that tests require ```pip install unittest``` and ```pip install pyyaml``` 
-(these are included if you have installed dependencies from ```requirements.testing.txt```)
+Note that tests require ```pip install pyyaml``` 
+(this is included if you have installed dependencies from ```requirements.testing.txt```)
+
+A valid Azure storage connection string must be provided in azure.cfg.
 
 To run the unit tests ::
 
